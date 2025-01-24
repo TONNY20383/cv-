@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cv{
+    width: auto;
+}
+.grandblock{
+   display: flex;
+   gap:24px
+  
+}
+.photo img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50%;
+}
+.block1 h1,.block3 h3{
+    font-size: 30px;
+    margin-left: 75%;
+}
+.block2 h2{
+    font-size: 30px;
+    margin-left: 60%;
+}
+.block4 h4{
+    font-size: 30px;
+    margin-left: 44.7%;
+}
+.element1 img{
+    width: 2em;
+    height: 2em;
+}
+.gauche hr{
+    width: 100%;
+}
+.element1 p{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:10px;
+    max-width: 300px;
+    margin-left: 50%;
+    margin-top: 25px;
+    
+}
+.element1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+   
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.alignement{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.block2 P{
+    font-size: 20px;
+    margin-left: 28.5%;
+    margin-top: 25px;
+}
+.block3 P{
+    font-size: 20px;
+    margin-left: 25.5%;
+    margin-top: 25px;
+}
+.block4 P{
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+/* droit */
+.droite hr{
+    width: 100%;
+}
+.droite p{
+    font-size: 20px;
+}
+.droite h5{
+    font-size: 60px;
+}
+.droite h6{
+    font-size:20px ;
+     }
+.paragraphespeciale p{
+    line-height: 24px;
+}
+.droite li{
+    font-size: 20px;
+    color: gray;
+    margin-left: 17px;
+}
+.titre{
+    font-weight: bold;
+}
+.date{
+    font-size: 15px;
+}
+.gris{
+    color: gray;
+}
+.gauche{
+    width: 600px;
+    height: 1500px;
+    /* background-color:aqua; */
+    padding-top: 50px;
+    /* border: 1px solid black; */
+}
+.paragraphe1 h1{
+    margin-left: -20px;
+}
+.droite{
+    width: 850px;
+    height: 1500px;
+    /* background-color: brown; */
+    padding-left: 50px;
+    padding-top: 50px;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 227);
+    box-shadow: 10 10 10 black;
+}
